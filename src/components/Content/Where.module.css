@@ -1,0 +1,94 @@
+span {
+  margin: 0;
+}
+
+.contact {
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+
+}
+
+
+.title {
+  padding: 2rem;
+}
+
+.container {
+  margin-top: 4rem;
+  max-width: 1100px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 20px;
+}
+
+@media (max-width: 1000px) {
+  .container{
+  flex-direction: column;
+  }
+
+  
+}
+
+table {
+  border-collapse: collapse;
+  font-size: var(--wp--preset--font-size--medium);
+  width: 100%;
+}
+td {
+  padding: 10px;
+}
+
+.column-2 {
+  text-align: left;
+  font-weight: 500;
+}
+
+.column-2 a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+
+.column-2 a:hover {
+  color: rgb(96, 96, 238);
+}
+
+.column-1 {
+  text-align: right;
+}
+
+.icons {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .icons{
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+}
+
+.icon {
+  margin: 10px 20px;
+  display: block;
+  width: 60px;
+}
+
+.fb:hover {
+    fill: #3b5998;
+}
+
+.ig:hover {
+    fill: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}

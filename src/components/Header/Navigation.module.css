@@ -1,0 +1,62 @@
+
+.navigation {
+   flex-grow: 1;
+    
+}
+
+.navigation__list {
+list-style: none;
+display: flex;
+justify-content: stretch;
+padding: 0;
+
+}
+
+
+.navigation__list-item {
+    /* padding: 1rem; */
+    flex: 1;
+    font-weight: 500;
+    font-size: medium;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+.navigation__list-item a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.navigation__list-item a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 5%;
+    width: 90%;
+    
+    height: 3px; /* Border height */
+    border-radius: 2px;
+    /* background-color: #c6c6c6; */
+    background-color: var(--wp--preset--color--orange-accent);
+    
+    opacity: 0; /* Initially transparent */
+    transition: opacity 0.3s; /* Transition for smooth effect */
+  }
+  
+  .navigation__list-item:hover a::after {
+    opacity: 1; /* Make the border visible on hover */
+  }
+
+  .navigation__list-item a.active::after { /* Adjust opacity when active class is present */
+    opacity: 1;
+  }
+  
+  .navigation__list-item:hover a.active::after {
+    opacity: 0.5;
+    
+  }
+
+ 

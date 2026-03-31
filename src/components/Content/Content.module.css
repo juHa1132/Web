@@ -1,0 +1,124 @@
+.container {
+}
+
+.content-container {
+  flex-grow: 1;
+  /* width:  1000px;  */
+  margin: 0 auto;
+  /* background: linear-gradient(to bottom, white 5%, rgb(31, 98, 180) 40%, rgb(31, 98, 180) 40%, #ffedcb 40%, white ); */
+  /* background-image: url("tloDUZE.jpg"); */
+  /* background-color: #ededed; */
+}
+
+.quote-and-photo-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+  .content-container {
+    width: 100%;
+  }
+
+  .quote-and-photo-container {
+    width: 100%;
+  }
+}
+
+.top-text {
+  margin-top: 3rem;
+  font-size: large;
+}
+
+.photoCV {
+  position: relative;
+  
+}
+
+.photoCV img {
+  width: 100%;
+ 
+}
+
+.cv {
+  font-size: var(--wp--preset--font-size--medium);
+  padding: 2rem;
+}
+
+.cv-overlay {
+  z-index: 5;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 60%,
+    rgba(255, 255, 255, 0.3) 80%,
+    rgba(255, 255, 255, 0.6) 90%,
+    rgba(255, 255, 255, 0.9)
+  );
+}
+
+.home-page__image-side-text {
+  font-size: var(--wp--preset--font-size--normal);
+}
+
+.quick-contact__container {
+  background: rgb(253, 243, 188);
+  border-radius: 20px;
+  padding: 1rem;
+  padding-top: 2rem;
+  margin-bottom: 4rem;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.quick-contact__container:hover {
+  transform: translateY(-2px) translateX(-2px);
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.quick-contact__header {
+  font-size: 30px;
+}
+
+.quick-contact__text {
+  font-size: var(--wp--preset--font-size--medium);
+}
+
+.quick-contact__button,
+.quick-contact__button-cv {
+  background: var(--wp--preset--color--tuned-orange);
+  border: none;
+  border-radius: 10px;
+  font-size: var(--wp--preset--font-size--medium);
+  padding: 14px;
+  cursor: pointer;
+}
+
+.quick-contact__button-cv {
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  z-index: 10;
+  transform: translate(-50%, 0);
+}
+
+.quick-contact__button-icon {
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  margin: 0;
+}
+
+.quick-contact__button:hover .quick-contact__button-icon {
+  transform: translateX(5px);
+}
+
+.quick-contact__button-cv:hover .quick-contact__button-icon {
+  transform: translateX(5px);
+}
+
+.contact p {
+  font-size: var(--wp--preset--font-size--small);
+}

@@ -1,0 +1,114 @@
+.offers {
+  /* background: linear-gradient(
+    to bottom,
+    #ffedcb 40%,
+    rgba(255, 255, 255, 0)
+  ); */
+  /* background-image: url("tlo.jpg"); */
+   /* background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 90%,
+    rgb(255, 255, 255)
+  ); */
+  padding: 0 2rem 5rem 2rem;
+}
+
+.offers-title {
+  padding: 2rem;
+  padding-top: 6rem;
+  margin-top: 0;
+}
+
+.offers-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+@media (max-width: 1000px) {
+  .offers-container {
+    flex-direction: column;
+  }
+
+  .offers-title {
+    padding: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .offers {
+    padding: 0 1rem;
+  }
+}
+
+.empty {
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.empty img {
+  max-width: 300px;
+}
+
+@media (max-width: 1000px) {
+  .empty img {
+    width: 60vw;
+  }
+}
+
+.offers-item {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.offers-list {
+  padding-left: 2rem;
+  position: relative;
+}
+
+@media (max-width: 1000px) {
+  .offers-list {
+    padding: 0;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .offers-list {
+    width: auto;
+  }
+}
+
+.background-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.offers-item__description {
+  width: 100%;
+  font-size: 20px;
+  text-align: left;
+}
+
+.offers-item__decoration {
+  color: var(--wp--preset--color--orange-accent);
+  font-weight: 900;
+  margin: 0 5px;
+  display: inline-block;
+  width: 20px;
+}
+
+.offers-item__decoration img {
+  width: 20px;
+}

@@ -1,0 +1,10 @@
+.logo img{
+    width: 300px;
+    cursor: pointer;
+}
+
+@media (max-width: 380px) {
+    .logo img {
+        width: 250px;
+    }
+}

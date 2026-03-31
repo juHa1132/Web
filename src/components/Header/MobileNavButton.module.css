@@ -1,0 +1,16 @@
+
+.mobile-nav-button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+  }
+  
+  .button-dashboard {
+    width: 3rem;
+    border-bottom: 3px solid var(--wp--preset--color--black);
+    margin-bottom: 10px;
+  
+  }

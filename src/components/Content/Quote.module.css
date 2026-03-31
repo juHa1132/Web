@@ -1,0 +1,68 @@
+.top {
+    /* height: 290px; */
+    /* background-color: var(--wp--preset--color--milky-gray); */
+    padding: 2rem;
+    text-align: left;
+    width: 480px;
+    margin: 0 auto;
+    margin-right: 0;
+    color: rgb(6, 10, 27);
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 500;
+  }
+  
+
+.quotes {
+    position: relative;
+    /* width: 450px; */
+    opacity: 0.8;
+    /* height: 150px; */
+   
+}
+
+@media (max-width: 1000px) {
+    .top{
+      /* width: 50%;
+      margin: 0; */
+      text-align: center;
+      width: 500px;
+    }
+  
+    .quotes {
+      width: 100%;
+    }
+  }
+
+  
+
+.quote-top {
+    font-size: var(--wp--preset--font-size--small);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--wp--preset--font-size--large);
+    /* font-size: 54px; */
+    line-height: 95%;
+}
+
+.quote-author {
+    /* position: absolute;
+    right: 5rem;
+    bottom: 0; */
+    text-align: right;
+    width: 80%;
+}
+
+@media (max-width: 500px) {
+  .top {
+    width: auto;
+    padding: 4rem 2rem 4rem 2rem;
+
+  }
+
+  .quote-top {
+    font-weight: 400;
+    font-size: var(--wp--preset--font-size--medium);
+  }
+
+}

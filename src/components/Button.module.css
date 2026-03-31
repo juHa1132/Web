@@ -1,0 +1,23 @@
+.button {
+    background: var(--wp--preset--color--tuned-orange);
+    border: none;
+    border-radius: 10px;
+    font-size: var(--wp--preset--font-size--medium);
+    padding: 14px;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  .button-icon {
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+
+  }
+  
+  .button:hover .button-icon {
+    transform: translateX(5px);
+  }
+  
+  

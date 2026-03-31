@@ -1,0 +1,43 @@
+
+
+.title {
+    padding: 2rem 0;
+}
+
+@media (max-width: 1000px) {
+   .title {
+    line-height: 90%;
+    padding: 1rem 0;
+   } 
+}
+
+/* h3 {
+    font-family: "Abhaya Libre", serif;
+    font-weight: bold;
+    font-size: 24px;
+} */
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.container ol {
+    text-align: left;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}

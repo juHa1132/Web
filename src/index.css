@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  color: #29302B;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  /* background-color: #fff3de; */
+  background-color: #ededed;
+  /* overflow-x: hidden; */
+}
+
+body {
+  --wp--preset--color--black: #000000;
+  --wp--preset--color--cyan-bluish-gray: #abb8c3;
+  --wp--preset--color--cyan-bluish-gray: #abb8c3;
+  --wp--preset--color--milky-gray: rgb(224,231,231);
+  --wp--preset--color--light-beige: rgb(248,245,227);
+  --wp--preset--color--white: #ffffff;
+  --wp--preset--color--pale-pink: #f78da7;
+  --wp--preset--color--vivid-red: #cf2e2e;
+  --wp--preset--color--luminous-vivid-orange: #ff6900;
+  --wp--preset--color--tuned-orange: #F6C82F;
+  --wp--preset--color--orange-accent: #f9c833;
+  --wp--preset--color--luminous-vivid-amber: #fcb900;
+  --wp--preset--color--light-green-cyan: #7bdcb5;
+  --wp--preset--color--vivid-green-cyan: #00d084;
+  --wp--preset--color--pale-cyan-blue: rgb(142, 209, 252);
+  --wp--preset--color--vivid-cyan-blue: #0693e3;
+  --wp--preset--color--vivid-purple: #9b51e0;
+  --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
+  --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);
+  --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
+  --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);
+  --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
+  --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+  --wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);
+  --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);
+  --wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);
+  --wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);
+  --wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);
+  --wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+  --wp--preset--font-size--small: 13px;
+  --wp--preset--font-size--medium: 20px;
+  --wp--preset--font-size--large: 36px;
+  --wp--preset--font-size--x-large: 42px;
+  --wp--preset--spacing--20: 0.44rem;
+  --wp--preset--spacing--30: 0.67rem;
+  --wp--preset--spacing--40: 1rem;
+  --wp--preset--spacing--50: 1.5rem;
+  --wp--preset--spacing--60: 2.25rem;
+  --wp--preset--spacing--70: 3.38rem;
+  --wp--preset--spacing--80: 5.06rem;
+  --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+  --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+  --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+  --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+  --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+  
+}
+
+
+#root {
+  height: 100%;
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+}
+
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  /* background-color: #fff3de; */
+}
+
+.title {
+  /* font-family: "Abhaya Libre", serif; */
+  font-size: var(--wp--preset--font-size--large);
+  /* font-family: "Source Sans 3", sans-serif; */
+  font-weight: 600;
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
+
+
+
+.side-menu {
+  position: absolute;
+  top: 0;
+  left: 100%; 
+  width: 70vw;/* Adjust the width based on your side menu requirements */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+
+.side-menu__list {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 3rem;
+  top: 71px;
+}
+
+.side-menu__button {
+  position: absolute;
+  cursor: pointer;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: var(--wp--preset--font-size--large);
+}
+
+
+.side-menu__list-item {
+  border-bottom: 1px solid grey;
+  padding-top: 2rem;
+  cursor: pointer;
+}
+
+
+.side-menu__row-icon {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+}
+
+.side-menu__row-icon img {
+  width: 16px;
+  margin-right: 10px;
+}
+
+.side-menu__row-icon p {
+  margin: 0;
+}
+
+
+
+.logo {
+  color: white;
+}
+
+.logo-title {
+ margin: 0;
+}
+
+.logo-name {
+margin: 0;
+}
+
+
+.navbar {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.content {
+  flex-grow: 1;
+  margin-top: 100px;
+  /* background-color: #fff3de; */
+ 
+
+}
+
+
+/* Styl dla mniejszych urządzeń o szerokości ekranu do 375px (np. iPhone SE) */
+@media (max-width: 475px) {
+  body {
+    font-size: 14px; /* Zmniejszenie ogólnej wielkości czcionki */
+  }
+  
+  h1 {
+    font-size: 20px; /* Dostosowanie nagłówków */
+  }
+
+  p {
+    font-size: 12px; /* Dostosowanie tekstu paragrafów */
+  }
+
+  .text {
+    font-size: 14px; /* Dostosowanie tekstu paragrafów */
+  }
+
+  .title {
+    font-size: var(--wp--preset--font-size--medium);
+  }
+
+  /* Inne elementy, które chcesz zmniejszyć */
+}
+

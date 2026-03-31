@@ -1,0 +1,83 @@
+.contact {
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    
+  }
+  
+  
+  .title {
+    padding: 2rem;
+   
+  }
+  
+  .container {
+    margin-top: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media (max-width: 1200px) {
+    .contact {
+      margin-top: 1rem;
+
+    }
+    .container {
+      margin-top: 1rem;
+
+    }
+  }
+  
+  table {
+    border-collapse: collapse;
+    font-size: var(--wp--preset--font-size--medium);
+  }
+  td {
+    padding: 10px;
+  }
+  
+  .column-2 {
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .column-2 a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  .column-2 a:hover {
+    color: rgb(96, 96, 238);
+  }
+  
+  .column-1 {
+    text-align: right;
+  }
+  
+  .icons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
+  
+  .icon {
+    margin: 10px 20px;
+    display: block;
+    width: 60px;
+  }
+  
+  .fb:hover {
+      fill: #3b5998;
+  }
+  
+  .ig:hover {
+      fill: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  }
+  

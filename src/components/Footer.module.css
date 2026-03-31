@@ -1,0 +1,14 @@
+.footer {
+    background-color: #3F4242;;
+    color: white;
+    min-height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy-rights {
+    margin: 4px;
+    font-size: var(--wp--preset--font-size--small);
+}
