@@ -31,6 +31,9 @@ http://localhost:3000
 ## 📸 Screenshots
 
 Below are previews of the project interface:
+![Screenshot 1](assets/Screenshots/Zrzut ekranu (5).png)
+![Screenshot 2](assets/Screenshots/Zrzut ekranu (6).png)
+![Screenshot 3](assets/Screenshots/Zrzut ekranu (7).png)
 
 ---
 
